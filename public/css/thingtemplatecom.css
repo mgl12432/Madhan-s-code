@@ -1,0 +1,172 @@
+#wrapper
+{	
+	min-height: 100%;
+ 	position: relative;
+	margin: 0;
+	margin-left:-8px;
+	margin-right:-10px;	
+	width:100%;
+  	padding: 0;
+  	height: 100%;
+  	
+}
+
+::-webkit-scrollbar
+{
+	width:5px;
+}
+::-webkit-scrollbar-thumb
+{
+	background:#FF6636;
+	border-radius:5px;
+}
+::-webkit-scrollbar-track
+{
+	box-shadow:inset 0 0 5px grey;
+	border-radius:2px;
+}
+::-webkit-scrollbar-thumb:hover
+{
+	background:#FF6636;
+}
+.centerbody
+{
+	position:relative;
+}
+section
+{
+	margin-top:94px;
+	margin-left:80px;
+}
+.heading
+{
+	font-size:28px;
+	margin-left:60px;
+	color:#FF6636;
+	font-weight:bold;
+}
+.heading2
+{
+	font-size:24px;
+	color:#FF6636;
+	font-weight:bold;
+}
+.typebox
+{
+	width:80px;
+	font-size:18px;
+	padding:8px;
+	color:#FF6636;
+	outline:none;
+	text-align:center;
+	border: 2px solid #FF6636;
+	margin-top:8px;
+	border-radius:10px;
+}
+.count
+{
+	margin-top:30px;
+	
+}
+.price
+{
+	margin-top:20px;
+	font-size:24px;
+	color:#FF6636;
+	font-weight:bold;
+}
+.oprice
+{
+	margin-top:30px;
+	font-size:24px;
+	color:#FF6636;
+	font-weight:bold;
+}
+.btn2
+{
+	margin-top:50px;
+}
+.btn:active
+{
+	color:black;
+}
+.btn
+{
+	text-decoration:none;
+	color:white;
+	outline:none;
+	cursor:pointer;
+	border:none;
+	font-size:24px;
+	font-weight:bold;
+	margin-right:30px;
+	border-radius:5px;
+	background-color:#FF6636;
+	padding:15px;
+}
+.loaderthing
+{
+	margin-top:134px;
+	float:center;
+	border:2px solid #FCDACF;
+	background-color:#FCDACF;
+	border-radius:20px;
+	width:400px;
+	display:none;
+	margin-left:34%;
+	height:200px;
+	position:fixed;
+	z-index:1;
+}
+.loadericon
+{
+	border:16px solid #FF6636;
+	border-radius:50%;
+	border-top:16px solid #FFFFFF;
+	width:60px;
+	height:60px;
+	margin-top:30px;
+	margin-left:150px;;
+	-webkit-animation: spin 2s linear infinite;
+	animation: spin 2s linear infinite;
+}
+.loaderletter
+{
+	font-size:20px;
+	margin-top:10px;
+	margin-left:110px;
+	font-weight:bold;
+	color:#FF6636;
+}
+.loadedthing
+{
+	margin-top:134px;
+	float:center;
+	border:2px solid #FCDACF;
+	background-color:#FCDACF;
+	border-radius:20px;
+	display:none;
+	width:300px;
+	margin-left:36%;
+	height:100px;
+	position:fixed;
+	z-index:1;
+}
+.loadedletter
+{
+	font-size:24px;
+	margin-top:34px;
+	margin-left:50px;
+	font-weight:bold;
+	color:#FF6636;
+}
+@keyframes spin
+{
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+@-webkit-keyframes spin
+{
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}

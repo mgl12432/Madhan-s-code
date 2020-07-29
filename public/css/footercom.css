@@ -1,0 +1,15 @@
+.footerbar
+{
+	position:relative;
+	color:white;
+	overflow-x: hidden;
+	width:101.2%;
+	left:0;
+	right:0;
+	bottom:0;
+	font-size:18px;
+	clear:both;
+	text-align:center;
+	top:50px;
+	background-color:#FF6636;
+}
